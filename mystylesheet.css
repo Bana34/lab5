@@ -1,0 +1,184 @@
+#flex-container{
+    display:flex;
+    flex-direction:row;
+  }
+    
+ 
+  #page-wrapper{
+    background-color:black;
+    padding:0%;
+    margin:3%;
+  }
+  nav li{
+    display:inline;
+    margin:auto;
+    padding:10%;
+    font-size:1.80vw;
+    max-width:98%;
+    
+  }
+  a{
+    text-decoration:none;
+    color:#008080;
+    
+  }
+  nav ul{
+    text-align:center;
+    margin:auto;
+    padding:30px;
+    background-color:#efffcb;
+  }
+  h5{
+   text-align:center;
+    font-size:80%;
+    margin:auto;
+   padding:2%;
+    max-width:98%;
+  }
+  h2{
+    margin:auto;
+    padding:1%;
+    font-size:3vw;
+    max-width:98%;
+    
+    
+  }
+  html{
+    color:#efffcb;
+    
+  }
+  #main-content{
+    background-color:#008080;
+    padding:2%;
+    margin:auto;
+    max-width:98%;
+  }
+  h1{
+    text-align:center;
+    font-size:5vw;
+    margin:auto;
+    padding:2%;
+    max-width:98%
+    
+  }
+  h3{
+    text-align:center;
+    margin:auto;
+    padding:5%;
+    font-size:3vw;
+    max-width:98%;
+  }
+  ol{
+    text-align:center;
+    list-style-type:none;
+    margin:auto;
+    padding:2%;
+    font-size:2vw;
+    max-width:98%;
+    
+  }
+  body{
+    font-family:"open sans","Helvetica Neue",Arial,san-serif;
+  }
+  a{
+    text-align:center;
+    font-size:1vw;
+    max-width:98%;
+    margin:auto;
+  }
+  p{
+    font-size:2vw;
+    max-width:98%;
+    
+  }
+  h5{
+   text-align:center;
+    font-size:80%;
+    margin:auto;
+    padding:1%;
+    max-width:98%;
+  }
+  @media (max-width:800px){
+    #flex-container{
+      flex-direction:column;
+    }
+  }
+  #flex-item3{
+    align-self:center;
+    flex-grow:90;
+  }
+ .social{
+    display:inline;
+    max-width:98%;
+    list-style-type: none;
+
+
+}
+  img{
+    margin:auto;
+    max-width:98%;
+  }
+  
+.inspo{
+    display:inline;
+    max-width:10%;
+    margin:auto;
+    padding:10%;
+    color:#efffcb;
+}
+
+#inspo{
+    color:#efffcb;
+}
+#flex-item4{
+    align-self: center;
+    flex-grow:90;
+}
+
+.goal{
+    text-align: center;
+    border-color: #efffcb;
+    border-style:solid;
+    margin:auto;
+    padding:10%;
+    max-width:98%;
+    font-weight: bold;
+}
+.title{
+    text-align: center;
+    margin:auto;
+    max-width:98%;
+    padding:5%;
+}
+.me{
+    margin:auto;
+    padding:4%;
+    max-width:98%;
+    
+}
+.intro{
+    margin:auto;
+    padding:2%;
+    max-width:98%;
+    text-align:center
+}
+.style{
+    margin:auto;
+    padding:10%;
+    max-width:98%;
+    font-weight: bolder;
+    text-align:center;
+}
+.software{
+    display:inline;
+    text-align: center;
+    list-style-type: none;
+    margin:auto;
+    max-width: 98%;
+}
+h4{
+    text-align: center;
+}
+hr{
+    color:black;
+}
